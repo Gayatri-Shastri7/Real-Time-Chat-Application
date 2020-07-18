@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CHIT-CHAT</title>
+    <script defer src="http://localhost:8000/socket.io/socket.io.js"></script>
+    <!-- script:src  -->
+    <script defer src="js/client.js"></script>
+    <!-- link:css  -->
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+    <nav>
+        <!-- <h1>WELCOME TO CHIT-CHAT APP</h1> -->
+        <img class="logo" src="chat1.png" alt="">
+        <h1>WELCOME TO CHIT-CHAT APP</h1>
+    </nav>
+    <!-- div.container -->
+    <div class="container">
+        <div class="message right">LULU: Hey!! How are you?</div>
+        <div class="message left">GUGU: Hey!! How are you?</div>
+    </div>
+    <div class="send">
+        <form action="#" id="send.container">
+        <input type="text" name="messageInp" id="messageInp">
+        <!-- button.btn -->
+        <button class="btn" type="submit">SEND</button>
+    </form>
+    </div>
+</body>
+</html>
